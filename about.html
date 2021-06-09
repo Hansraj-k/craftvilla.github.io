@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About Us | Craftvilla</title>
+	<link rel = "icon" href = "c.png" 
+	   type = "image/x-icon">
+	<link rel="stylesheet" href="style.css">
+	 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top" style="color: #000000"><i class="fa fa-angle-up" aria-hidden="true"></i></button>
+	<div id="pre-loader">
+		<div class="loader"></div>
+	  </div>
+
+<div class="header">
+		<div class="container">
+			<div class="navbar">
+				<div class="logo">
+					<a href="index.html"><img src="images/craftvilla.jpeg" width="160px"></a>
+				</div>
+				<nav>
+					<ul id="MenuItems">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="products.html">All Products</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="#contact">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>			
+	<picture>
+        <img class="banner hidden-sm hidden-xs img-fluid" src="https://usplworld-static.s3.ap-south-1.amazonaws.com/static/img/AboutUs/aboutusbanner.jpg" alt="banner">
+    </picture>
+		
+	<div class="container1">
+		<div class="shadow-sm p-4 bg-white card">
+			<div class="row">
+				<div class="col-12">
+					<h1 class=" font-weight-bold mb-3" style="text-align: center;">About <h0 id="ttufoabrac">Craftvilla</h0></h1>
+					<p class="text-justify">Since 2015, Craftvilla has been shaking up the
+						Indian craft industry with on-trend products, and an unerring finger
+						on the pulse of India’s youth. It has quickly created a mark for itself, and is today regarded
+						as one of the key players in the category. Headquartered in Adoni.</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="brands">
+		<div class="small-container">
+			<div class="row">
+				<div class="col-5">
+					<img src="images/craftvilla.jpeg" width="200px">
+				</div>
+			</div>
+		</div>
+	</div>
+	<br><br>
+<!--------- footer --------->
+ 	
+<div class="footer">
+
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1"><img src="images/craftvilla w.png" width="200px">
+				<div class="app-logo">
+					
+				</div>
+			</div>
+			<div class="footer-col-3" id="contact">
+			   <h3>Contact</h3>
+			   <ul>
+				   <li><a href="tel:+91 9398665922"><i class="fa fa-phone"></i><p>+91 9398665922</p></a></li>
+				   <li><a href="mailto:craftsvillalove@gmail.com"><i class="fa fa-envelope"></i><p>craftsvillalove@gmail.com</p></a></li>
+				   <li><a target="_blank" href="https://wa.me/+919398665922"><i class="fa fa-whatsapp"></i><p>+91 9398665922</p></a></li>
+			   </ul>
+		   </div>
+			<div class="footer-col-4">
+				<h3>Follow Us</h3>
+				<ul>
+				   <li><a target="_blank" href="https://www.facebook.com/crafts.villa.58"><i class="fa fa-facebook"></i><p>Facebook</p></a></li>
+				   <li><a target="_blank" href="https://www.instagram.com/craftvillalove_adoni/"><i class="fa fa-instagram"></i><p>Instagram</p></a></li>
+					
+				</ul>
+			</div>
+		</div>
+		<hr>
+		<p class="end"><a href="about.html">ABOUT US</a></p>
+	</div>
+</div>
+
+<script>(() =>{
+    
+    const hamburgerBtn = document.querySelector(".hamburger-btn"),
+    navMenu = document.querySelector(".nav-menu"),
+    closeNavBtn = navMenu.querySelector(".close-nav-menu");
+
+    hamburgerBtn.addEventListener("click", showNavMenu);
+    closeNavBtn.addEventListener("click", hideNavMenu);
+
+    function showNavMenu(){
+        navMenu.classList.add("open")
+    }
+    function hideNavMenu(){
+        navMenu.classList.remove("open")
+    }
+
+})();</script>
+<!-----------js for toggle top--------->
+<script>
+	   //Get the button
+	   var mybutton = document.getElementById("myBtn");
+
+	   // When the user scrolls down 20px from the top of the document, show the button
+	   window.onscroll = function() {scrollFunction()};
+
+	   function scrollFunction() {
+		 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		   mybutton.style.display = "block";
+		 } else {
+		   mybutton.style.display = "none";
+		 }
+	   }
+
+	   // When the user clicks on the button, scroll to the top of the document
+	   function topFunction() {
+		 document.body.scrollTop = 0;
+		 document.documentElement.scrollTop = 0;
+	   }
+</script>
+<script src="index.js"></script>
+</body>
+</html>

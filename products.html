@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>raftvilla</title>
+	<link rel = "icon" href = "c.png" 
+	   type = "image/x-icon">
+	<link rel="stylesheet" href="style.css">
+	 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top" style="color: #000000"><i class="fa fa-angle-up" aria-hidden="true"></i></button>
+	<div id="pre-loader">
+		<div class="loader"></div>
+	  </div>
+
+	<div class="header">
+		<div class="container">
+			<div class="navbar">
+				<div class="logo">
+					<a href="index.html"><img src="images/craftvilla.jpeg" width="160px"></a>
+				</div>
+				<nav>
+					<ul id="MenuItems">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="products.html">All Products</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="#contact">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+
+<div class="small-container">
+
+	<div class="row row-2">
+		<h2> All Products </h2>
+	</div>
+
+
+	<div class="row">
+		<div class="col-4">
+				<a href="product-details.html"><img src="images/product-1.jpg"></a>
+				<a href="product-details.html"><h4>Craftvilla <br>Customized bar pendent</h4></a>
+					
+				<span class="pdp-price" tabindex="0"><strong>₹350</strong></span>
+				<s><!-- react-text: 76 -->₹<!-- /react-text --><!-- react-text: 77 -->415<!-- /react-text --></s><span class="pdp-discount">(15% OFF)</span>
+			</div>
+			<div class="col-4">
+			 <a href="product-details1.html"><img src="images/product-2.jpg"></a>
+			 <a href="product-details1.html"><h4>Craftvilla <br>Customized Engraving frame 6x8</h4></a>
+			 	
+			 <span class="pdp-price" tabindex="0"><strong>₹750</strong></span>
+			 <s><!-- react-text: 76 -->₹<!-- /react-text --><!-- react-text: 77 -->885<!-- /react-text --></s><span class="pdp-discount">(15% OFF)</span>
+		 </div>
+		 <div class="col-4">
+			 <a href="product-details2.html"><img src="images/product-3.jpg"></a>
+			 <a href="product-details2.html"><h4>Craftvilla <br>Customized name bracelet</h4></a>
+			 <span class="pdp-price" tabindex="0"><strong>₹450</strong></span>
+			 <s><!-- react-text: 76 -->₹<!-- /react-text --><!-- react-text: 77 -->550<!-- /react-text --></s><span class="pdp-discount">(18% OFF)</span>
+		 </div>
+		 <div class="col-4">
+				 <a href="product-details3.html"><img src="images/product-4.jpg"></a>
+				 <a href="product-details3.html"><h4>Craftvilla <br>Customized couple bracelet</h4></a>
+				 	
+				 <span class="pdp-price" tabindex="0"><strong>₹550</strong></span>
+				 <s><!-- react-text: 76 -->₹<!-- /react-text --><!-- react-text: 77 -->650<!-- /react-text --></s><span class="pdp-discount">(15% OFF)</span>
+		 </div>
+
+		 <div class="page-btn">
+			<a href="products.html"><span>1</span></a>
+			<a href="products1.html"><span>2</span></a>
+			<a href="products2.html"><span>&#8594;</span></a>
+		</div>
+	</div>
+</div>
+
+
+<!--------- footer --------->
+ 	
+<div class="footer">
+
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1">
+				<div class="app-logo">
+					<img src="images/craftvilla w.png" width="300px">
+				</div>
+			</div>
+			<div class="footer-col-3" id="contact">
+			   <h3>Contact</h3>
+			   <ul>
+				   <li><a href="tel:+91 9398665922"><i class="fa fa-phone"></i><p>+91 9398665922</p></a></li>
+				   <li><a href="mailto:craftsvillalove@gmail.com"><i class="fa fa-envelope"></i><p>craftsvillalove@gmail.com</p></a></li>
+				   <li><a target="_blank" href="https://wa.me/+919398665922"><i class="fa fa-whatsapp"></i><p>+91 9398665922</p></a></li>
+			   </ul>
+		   </div>
+			<div class="footer-col-4">
+				<h3>Follow Us</h3>
+				<ul>
+				   <li><a target="_blank" href="https://www.facebook.com/crafts.villa.58"><i class="fa fa-facebook"></i><p>Facebook</p></a></li>
+				   <li><a target="_blank" href="https://www.instagram.com/craftvillalove_adoni/"><i class="fa fa-instagram"></i><p>Instagram</p></a></li>
+					
+				</ul>
+			</div>
+		</div>
+		<hr>
+		<p class="end"><a href="about.html">ABOUT US</a></p>
+	</div>
+</div>
+<script>(() =>{
+    
+    const hamburgerBtn = document.querySelector(".hamburger-btn"),
+    navMenu = document.querySelector(".nav-menu"),
+    closeNavBtn = navMenu.querySelector(".close-nav-menu");
+
+    hamburgerBtn.addEventListener("click", showNavMenu);
+    closeNavBtn.addEventListener("click", hideNavMenu);
+
+    function showNavMenu(){
+        navMenu.classList.add("open")
+    }
+    function hideNavMenu(){
+        navMenu.classList.remove("open")
+    }
+
+})();</script>
+<!-----------js for toggle top--------->
+<script>
+		//Get the button
+		var mybutton = document.getElementById("myBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    mybutton.style.display = "block";
+		  } else {
+		    mybutton.style.display = "none";
+		  }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+</script>
+ <script src="index.js"></script>
+</body>
+ </html>
