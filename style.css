@@ -615,7 +615,7 @@ div {
 		.col-4 img{
 			width: 100%;
 		}.row{
-			text-align: center;
+			text-align: ;
 		}
 		.col-2, .col-3, .col-4{
 			flex-basis: 100%;
@@ -813,7 +813,7 @@ div {
 /* ========= Facility ========== */
 
 .facility {
-	background-color: #d1e2e9;
+	background-color: #d12e9;
 	padding: 4rem 0;
   }
   
