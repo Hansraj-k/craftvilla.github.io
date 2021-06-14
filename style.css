@@ -550,7 +550,7 @@ div {
 }
 
 /*---media query for less than 600 screen size---*/
-@media only screen and  (max-width: 600px){
+@media only screen and  (max-width: 6px){
 	.row{
 		text-align: center;
 	}
@@ -782,8 +782,10 @@ div {
 		position: relative;
 	}
 } 
+/* ========= Facility ========== */
+
 .facility {
-	background-color: #d1e2e9;
+	background-color: var(--grey-alt);
 	padding: 6rem 0;
   }
   
@@ -810,7 +812,7 @@ div {
 	width: 8rem;
 	height: 8rem;
 	border-radius: 50%;
-	border: 1.5px solid white;
+	border: 1.5px solid var(--white);
 	z-index: 1;
 	margin-bottom: 1.6rem;
 	display: flex;
@@ -828,7 +830,7 @@ div {
 	right: 0;
 	bottom: 0;
 	margin: 0.7rem;
-	background-color: white;
+	background-color: var(--white);
 	z-index: -1;
   }
   
