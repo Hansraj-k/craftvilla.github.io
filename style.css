@@ -861,12 +861,12 @@ div {
 	}
   
 	.facility-icon {
-	  width: 7rem;
-	  height: 7rem;
+	  width: 5rem;
+	  height: 5rem;
 	  line-height: 8.5rem;
 	}
   
 	.facility-contianer p {
-	  font-size: 1.4rem;
+	  font-size: 1rem;
 	}
   }
