@@ -809,8 +809,8 @@ div {
   .facility-icon {
 	position: relative;
 	display: inline-block;
-	width: 8rem;
-	height: 8rem;
+	width: 4rem;
+	height: 4rem;
 	border-radius: 50%;
 	border: 1.5px solid #fff;
 	z-index: 1;
