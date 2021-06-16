@@ -816,7 +816,15 @@ div {
 	background-color: #d1e2e9;
 	padding: 4rem 0;
   }
-  
+  .close {
+	cursor: pointer;
+	color: white;
+	position: absolute;
+	top: 50%;
+	right: 0%;
+	padding: 12px 16px;
+	transform: translate(0%, -50%);
+  }
   .facility-contianer {
 	display: grid;
 	align-items: center;
