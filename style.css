@@ -825,6 +825,7 @@ div {
 	right: 0%;
 	padding: 12px 16px;
 	transform: translate(0%, -50%);
+	font-weight: 400;
   }
   .facility-contianer {
 	display: grid;
