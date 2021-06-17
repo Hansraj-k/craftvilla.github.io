@@ -1,3 +1,7 @@
 self.addEventListener("install", e => {
-    console.log("Install Craftvilla!");
+    e.waitUntill(
+        caches.open("static").then(cache => {
+            return cache.addAll(["style.css","p404.png"]);
+        })
+    )
 });
