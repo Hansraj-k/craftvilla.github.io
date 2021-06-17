@@ -645,6 +645,9 @@ div {
 		 height: 200px;
 		}
 	}
+.link{
+	color: #ff3e6c;
+}
 .content h1{
 	font-size: 60px;
 	font-weight:100;
