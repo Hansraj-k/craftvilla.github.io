@@ -1,3 +1,3 @@
 self.addEventListener("install", e => {
-    console.log("Install Craftvilla!");
+    console.log("Instal!");
 });
