@@ -549,7 +549,7 @@ div {
     padding-left: 15px;
 }
 
-/*---media query for less than 600 screen size---*/
+/*---media query for less than 600 screen size---*//*--
 @media only screen and  (max-width: 6px){
 	.row{
 		text-align: center;
@@ -582,8 +582,31 @@ div {
 		width: 100%;
 	}
 
-} 
+}--*/
 /*---media query for less than 600 screen size---*/
+@media only screen and  (max-width: 600px){
+	.row{
+		text-align: center;
+	}
+	.col-2, .col-3, .col-4{
+		flex-basis: 100%;
+	}
+	.single-product .row{
+		text-align: left;
+	}
+	.single-products col-2{
+		padding: 20px 0;
+	}
+	.single-products h4{
+		font-size: 26px;
+		line-height: 22px;
+	}
+
+	.cart-info p{
+		display: none;
+	}
+}
+/*---media query for less than 600 screen size---*//*--
 @media only screen and  (max-width: 600px){
 	.row{
 			text-align: center;
@@ -644,7 +667,7 @@ div {
 		.col-4 img{
 		 height: 200px;
 		}
-	} 
+	}---*/
 .content h1{
 	font-size: 60px;
 	font-weight:100;
