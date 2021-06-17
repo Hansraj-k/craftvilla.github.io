@@ -7,7 +7,7 @@
     "display": "standalone",
     "icons":[
         {
-            "src": "p404.png",
+            "src": "icon.png",
             "sizes":"192x192",
             "type": "image/png"
         },

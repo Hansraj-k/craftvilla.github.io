@@ -7,9 +7,5 @@ self.addEventListener("install", e => {
 });
 
 self.addEventListener("fetch", e => {
-    e.respondWith(
-        caches.match(e.request).then(Response => {
-            return response || fetch(e.request);
-        })
-    );
+    console.log('Intercepting fetch request for: ${e.request.url}');
 });
