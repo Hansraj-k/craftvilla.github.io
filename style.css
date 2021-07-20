@@ -453,9 +453,22 @@ button{
 	box-shadow: 5px 1px 2px black; 
 }
 #share{
-	color: black;
-	border-radius: 50%;
-	box-shadow: 5px 1px 2px black;
+	display: none;
+	position: fixed;
+	bottom: 20px;
+    right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: white;
+	color: white;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 20px;
+	height: 40px;
+	width: 40px;
+	box-shadow: 5px 1px 2px black; 
 }
 #myBtn:hover {
   background-color: white;
