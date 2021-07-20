@@ -452,7 +452,11 @@ button{
 	width: 40px;
 	box-shadow: 5px 1px 2px black; 
 }
-
+#share{
+	color: black;
+	border-radius: 50%;
+	box-shadow: 5px 1px 2px black;
+}
 #myBtn:hover {
   background-color: white;
   box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
