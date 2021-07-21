@@ -13,7 +13,7 @@ function init() {
   const pinterestImg = document.querySelector(".pinterest-img");
 
   let postUrl = encodeURI(document.location.href);
-  let postTitle = encodeURI("SHOP NOW ON CRAFTVILLA AND GET MINIMUM 15% off");
+  let postTitle = encodeURI("document.title");
   whatsappBtn.setAttribute(
     "href",
     `https://wa.me/?text=${postTitle} ${postUrl}`
