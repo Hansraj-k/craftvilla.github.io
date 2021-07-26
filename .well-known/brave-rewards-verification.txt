@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: craftvilla.netlify.app
+Token: 36e306bf54feb5c687d675455b701a285c587f485ee08266f0d062bc530312c6
