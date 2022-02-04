@@ -918,3 +918,6 @@ div {
 	  font-size: 1.4rem;
 	}
   }
+img.img {
+    height: 100px;
+}
