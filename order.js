@@ -7,7 +7,7 @@ https://wa.me/?text=[post-title]
 
 */
 
-const whatsappBtn = document.querySelector(".whatsapp-btn");
+const whatsappBtn = document.querySelector(".whatsapp-bt");
 
 function init() {
   const pinterestImg = document.querySelector(".pinterest-img");
